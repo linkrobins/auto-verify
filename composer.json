@@ -1,0 +1,34 @@
+{
+    "name": "linkrobins/auto-verify",
+    "description": "Automatically verifies new user email addresses on registration. No email confirmation required.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karl Bullock",
+            "email": "karl@linkrobins.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/linkrobins/auto-verify/issues",
+        "source": "https://github.com/linkrobins/auto-verify"
+    },
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Link Robins Auto Verify",
+            "icon": {
+                "name": "fas fa-user-check",
+                "backgroundColor": "#1a2535",
+                "color": "#07adcc"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkRobins\\AutoVerify\\": "src/"
+        }
+    }
+}

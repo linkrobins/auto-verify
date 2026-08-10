@@ -2,6 +2,8 @@
     "name": "linkrobins/auto-verify",
     "description": "Automatically verifies new user email addresses on registration. No email confirmation required.",
     "type": "flarum-extension",
+    "keywords": ["flarum", "email", "verification", "registration", "moderation"],
+    "homepage": "https://linkrobins.com/extensions/auto-verify",
     "license": "MIT",
     "authors": [
         {
